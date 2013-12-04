@@ -33,24 +33,25 @@ Charcoal Multi Input jQuery plugin was developped for <a href="http://charcoal.l
 # USAGE
 Given the following HTML markup:
 
-`
+``` html
 <div>
 	<input type="text" name="example" id="example" value="Value 1,Value 2, Value 3" />
 </div>
-`
+```
 
 Transforming the input into 3 inputs is as simple as:
 
-`
+``` javascript
 <script>
 	var options = {};
 	$('#example').multiple_inputs(options);
 </script>
-`
+```
 
 
 # CONFIGURATION OPTIONS
 The following options can be set
+
 | Option                         | Type   | Default value  | Description                                               |
 | ------------------------------ | ------ | -------------- | --------------------------------------------------------- |
 | **separator**                  | string | ,              | What to split/join the string with.                       |
