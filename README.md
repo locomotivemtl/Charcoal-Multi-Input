@@ -1,9 +1,9 @@
-Charcoal-Multi-Input
+Charcoal Multi-Input
 ====================
 
 jQuery plugin to split a simple text input into a rich multi-input UI.
 
-Charcoal Multi Input jQuery plugin was developped for <a href="http://charcoal.locomotive.ca">Charcoal</a>, a content management system created by <a href="http://locomotive.ca" title="Locomotive, a Montreal Web agency">Locomotive, a Montreal Web agency</a>.
+Charcoal Multiple Input jQuery plugin was developped for <a href="http://charcoal.locomotive.ca">Charcoal</a>, a content management system created by <a href="http://locomotive.ca" title="Locomotive, a Montreal Web agency">Locomotive, a Montreal Web agency</a>.
 
 # FEATURES
 * Transform a single text input into a rich user interface

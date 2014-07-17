@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				files: {
-					'charcoal.particles.<%= pkg.version %>.min.js': ['<%= concat.dist.dest %>']
+					'charcoal.forms.multiple_input.<%= pkg.version %>.min.js': ['<%= concat.dist.dest %>']
 				}
 			}
 		},

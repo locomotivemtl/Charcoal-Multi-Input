@@ -61,14 +61,14 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 
 			/**
 			* Support keyboard navigation or not
-			* @var {boolean}
+			* @var {bool}
 			*/
 			keyboard:			true,
 
 			/**
 			* If set to true, a new input will be auto-created when the "separator" key is pressed
 			* Note that this probably fail if the separator is more than a single char
-			* @var {boolean}
+			* @var {bool}
 			*/
 			auto_split:			true,
 
@@ -81,20 +81,20 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 			/**
 			* If drag and drop is enabled, a single reorder button will be shown
 			* If set to false, then 2 buttons to move up and down will be displayed instead
-			* @var boolean
+			* @var {bool}
 			*/
 			drag_and_drop:		true,
 
 			/**
 			* The HTML markup that will be displayed in the delete (<a>) button
-			* @var string
+			* @var {string}
 			*/
 			btn_delete_html:	'✘',
 
 			/**
 			* The HTML markup that will be displayed in the reorder (<a>) button
 			* Note that this button is only displayed if drag_and_drop is set to true
-			* @var string
+			* @var {string}
 			*/
 			btn_reorder_html:		'↕',
 			/**
@@ -129,7 +129,7 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 		* Initialize the multiple plugin
 		* Replace the original input by multiple 
 		*
-		* @return jQuery (chainable)
+		* @return {jQuery} (chainable)
 		*/
 		this.init = function()
 		{
@@ -213,7 +213,7 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 
 		/**
 		* @param {string} The value to put in the input
-		* @param jQuery If set, the previous input (so we can know where to add the new item...)
+		* @param {jQuery} If set, the previous input (so we can know where to add the new item...)
 		*/
 		this.create_item = function(val, prev_input)
 		{	
