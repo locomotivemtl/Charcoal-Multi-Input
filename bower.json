@@ -1,0 +1,28 @@
+{
+	"name":"Charcoal-Multi-Input",
+	"main":"jquery.charcoal-multi-input.js",
+	"version":"0.1.1",
+	"license": "MIT",
+	"description":"jQuery plugin to split a simple text input into a rich multi-input UI.",
+	"homepage":"http://charcoal.locomotive.ca/tools/jquery-multi-input/",
+
+	"authors":[
+		"Mathieu Ducharme <mat@locomotive.ca>"
+	],
+	
+	"keywords":[
+		"charcoal",
+		"multi-input",
+		"text-input",
+		"jquery"
+	],
+	
+	"ignore":[
+
+	],
+	
+	"dependencies":{
+		"jquery":"-1.10"
+	}
+	
+}
