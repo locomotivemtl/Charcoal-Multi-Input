@@ -3,26 +3,31 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Demo 01 - Basic Usage - Charcoal Multi-Input</title>
-		<meta name="description" content="">
+		<meta name="description" content="Charcoal Multi-Input Demo 01 - Loading a simple element with no configuration options.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	</head>
 
 	<body>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../libs/jquery/dist/jquery.min.js"><\/script>')</script>
-        <script src="../js/charcoal.forms.multiple_input.js"></script>
 
-        <form>
-        	<input type="text" id="demo01" />
-        </form>
 
-        <script>
-        $(document).ready(function() {
-        	var opts = {};
-        	$('#demo01').multiple_inputs(optsw);
-        });
-        </script>
+                <form>
+                	<input type="text" id="demo01" />
+                </form>
+
+                <!-- jQuery from CDN, if fail then local version (downloaded automatically from bower) -->
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                <script>window.jQuery || document.write('<script src="../libs/jquery/dist/jquery.min.js"><\/script>')</script>
+                <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+                <script>window.jQuery.ui || document.write('<script src="../libs/jquery-ui/jquery-ui.min.js"><\/script>')</script>
+                <script src="../js/charcoal.forms.multiple_input.js"></script>
+                <script>
+                $(document).ready(function() {
+                        "use strict";
+                        
+                	var opts = {};
+                	$('#demo01').multiple_inputs(opts);
+                });
+                </script>
 	</body>
 </html>
 

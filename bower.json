@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "license": "MIT",
   "description": "jQuery plugin to split a simple text input into a rich multi-input UI.",
-  "homepage": "http://charcoal.locomotive.ca/tools/jquery-multi-input/",
+  "homepage": "https://github.com/locomotivemtl/Charcoal-Multi-Input",
   "authors": [
     "Mathieu Ducharme <mat@locomotive.ca>"
   ],
@@ -19,6 +19,7 @@
     "jquery": "~1.11"
   },
   "devDependencies": {
-    "qunit": "~1.14.0"
+    "qunit": "~1.14.0",
+    "jquery-ui": "~1.11.1"
   }
 }

@@ -372,6 +372,8 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 				item.on('mouseleave', function(e) {
 					action_container.hide();
 				});
+				// Hide by default
+				action_container.hide();
 			}
 
 		};

@@ -80,7 +80,8 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 			
 			/**
 			* If drag and drop is enabled, a single reorder button will be shown
-			* If set to false, then 2 buttons to move up and down will be displayed instead
+			* If set to false, then 2 buttons to move up and down will be displayed instead.
+			* Note that jquery-ui is required for this option.
 			* @var {bool}
 			*/
 			drag_and_drop:		true,
@@ -372,6 +373,8 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 				item.on('mouseleave', function(e) {
 					action_container.hide();
 				});
+				// Hide by default
+				action_container.hide();
 			}
 
 		};
@@ -395,5 +398,5 @@ Charcoal.Form.Multiple_Inputs = function(selector, options)
 
 		// Chainable
 		return this.init();
-	}
+	};
 }(jQuery));
